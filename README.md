@@ -1,2 +1,2 @@
-# kube
-Viglet Kube  is open-source software for delivering Kubernetes-as-a-Service.
+# Viglet Rubikube
+Viglet Rubikube is open-source software for delivering Kubernetes-as-a-Service.
