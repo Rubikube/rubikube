@@ -1,28 +1,16 @@
 {
   "name": "rubikube",
-  "version": "0.3.0",
-  "description": "Viglet Kube is open-source software for delivering Kubernetes-as-a-Service.",
-  "main": "app.js",
-  "dependencies": {
-    "express": "^4.16.4"
-  },
-  "devDependencies": {},
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/openviglet/rubikube.git"
-  },
-  "keywords": [
-    "nodejs",
-    "viglet-rubikube",
-    "kubernetes"
-  ],
-  "author": "Alexandre Oliveira",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/openviglet/rubikube/issues"
-  },
-  "homepage": "https://github.com/openviglet/rubikube#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0"
+  }
 }
