@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~7.1.0",
     "@angular/platform-browser-dynamic": "~7.1.0",
     "@angular/router": "~7.1.0",
+    "acorn": "^7.1.1",
     "cookie-parser": "^1.4.5",
     "core-js": "^2.6.11",
     "debug": "~2.6.9",
